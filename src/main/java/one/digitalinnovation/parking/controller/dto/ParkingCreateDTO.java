@@ -1,2 +1,11 @@
-package one.digitalinnovation.parking.controller.dto;public class ParkingCreateDTO {
+package one.digitalinnovation.parking.controller.dto;
+
+import lombok.Data;
+
+@Data
+public class ParkingCreateDTO {
+    private String license;
+    private String state;
+    private String model;
+    private String color;
 }
