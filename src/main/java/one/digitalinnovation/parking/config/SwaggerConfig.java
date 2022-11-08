@@ -26,7 +26,7 @@ public class SwaggerConfig {
     private ApiInfo metaData() {
         return new ApiInfoBuilder()
                 .title("Parking REST API")
-                .description("Spring Boot REST API for Parking")
+                .description("A Spring Boot REST API for managing vehicles at a parking")
                 .version("1.0.0")
                 .license("Apache license version 2.0")
                 .licenseUrl("https://www.apache.org/licenses/LICENSE-2.0")
