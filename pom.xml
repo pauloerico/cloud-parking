@@ -63,7 +63,13 @@
 			<artifactId>postgresql</artifactId>
 		</dependency>
 
-		<!--		Tests-->
+		<!--		Security-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+
+        <!--		Tests-->
 		<dependency>
 			<groupId>io.rest-assured</groupId>
 			<artifactId>rest-assured</artifactId>
