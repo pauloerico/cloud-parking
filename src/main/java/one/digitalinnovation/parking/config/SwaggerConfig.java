@@ -46,7 +46,7 @@ public class SwaggerConfig {
         return new ApiInfoBuilder()
                 .title("Parking REST API")
                 .description("A Spring Boot REST API for managing vehicles at a parking establishment." +
-                        "\n\nPlease use the following credentials for authorization:\n\n" +
+                        "\n\nPlease use the following credentials for authentication:\n\n" +
                         "Username: admin\n Password: admin\n\n" +
                         "GitHub: https://github.com/pauloerico/cloud-parking\n" +
                         "LinkedIn: https://www.linkedin.com/in/paulo-webdev/")
